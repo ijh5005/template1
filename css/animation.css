@@ -1,0 +1,44 @@
+#signup > *:hover {
+  position: relative;
+  top: -0.4em;
+}
+
+#navBar > *:hover {
+  color: var(--green);
+}
+
+.page2Section,
+#page3LeftSide > *:first-child > * ,
+#page3LeftSide > *:last-child > * {
+  transition: box-shadow 0.5s;
+}
+
+.page2Section:hover {
+  -webkit-box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.18);
+  box-shadow: 0px 7px 28px -6px rgba(0,0,0,0.18);
+}
+
+#page3LeftSide > *:first-child > *:hover ,
+#page3LeftSide > *:last-child > *:hover {
+  -webkit-box-shadow: 0px 7px 36px 6px rgba(0,0,0,0);
+  -moz-box-shadow: 0px 7px 36px 6px rgba(0,0,0,0);
+  box-shadow: 0px 7px 36px 6px rgba(0,0,0,0);
+}
+
+#testomyPerson:hover {
+  border: 0.01em solid var(--green);
+}
+
+#testomyPerson > img {
+  transition: transform 0.5s;
+}
+
+#testomyPerson:hover > img {
+  transform: scale(1.2) translateX(-1em);
+}
+
+#footer #socialMedia > *:hover {
+  color: var(--darkGreen);
+  opacity: 0.5;
+}
